@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(7, 77, 77);
+    font-family: 'Lora', serif;
+}
+
+
+/* ----------Navbar---------- */
+nav {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    width: 68px;
+    border-radius: 50%;
+}
+
+nav h1 {
+    color: rgb(4, 70, 72);
+    font-size: 43px;
+    margin: 0;
+}
+
+nav p {
+    color: rgb(7, 73, 75);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ----------SECTION--------- */
+
+.blog {
+    text-align: center;
+    margin: 2% 0;
+}
+
+.section {
+    text-align: center;
+    display: flex;
+    width: 85%;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Card {
+    width: 50%;
+    padding: 1rem;
+    border: 2px solid cadetblue;
+    text-align: left;
+}
+
+.Card:nth-child(2) {
+    margin: 0 1rem;
+}
+
+.Card:nth-child(3) {
+    margin: 0 1rem 0 0;
+}
+
+.Card img {
+    width: 100%;
+}

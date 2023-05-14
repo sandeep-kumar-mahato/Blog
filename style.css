@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    color: rgb(7, 77, 77);
+    font-family: 'Lora', serif;
+}
+
+header {
+    text-align: center;
+}
+
+/* ----------Navbar---------- */
+
+ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* ----------Logo---------- */
+
+.logo {
+    width: 8%;
+    border-radius: 50%;
+}
+
+/* ----------Intro Section---------- */
+
+section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+    border: 2px solid cadetblue;
+    padding: 2rem;
+}
+
+aside h5,
+.card h1 {
+    text-align: left;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: cadetblue;
+}
+
+aside h1 {
+    text-align: left;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+aside p,
+.card p {
+    text-align: left;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+button {
+    margin: 1rem 0;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    float: left;
+    background-color: cadetblue;
+    color: #ffffff;
+    border: 1px solid cadetblue;
+    cursor: pointer;
+}
+
+/* ----------Latest Posts---------- */
+
+hr {
+    width: 42%;
+}
+
+.horizontal-heading,
+.cards {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.card h1 {
+    text-decoration: underline;
+}
+
+.card-image {
+    width: 100%;
+}
+
+/* ----------Footer---------- */
+
+footer {
+    width: 85%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid cadetblue;
+    padding: 2rem;
+}
+
+.sec-1 {
+    padding-right: 4rem;
+}
+
+h3 {
+    padding-bottom: 2rem;
+}
+
+.sec-1 a {
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    letter-spacing: 1.1px;
+    color: cadetblue;
+}
+
+.sec-2 p {
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    margin: 0 0.8rem 0 0;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: 2px solid cadetblue;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    color: cadetblue;
+}
+
+input:focus {
+    border: 2px solid rgb(26, 181, 187);
+    color: cadetblue;
+}
+
+.creator {
+    text-align: center;
+    margin: 2% 0 1%;
+    font-size: 1.3rem;
+}
