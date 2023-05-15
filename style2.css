@@ -100,7 +100,7 @@ nav ul li a {
         font-size: 16px;
         margin: 0 1rem;
     }
-    
+
     nav p {
         font-size: 10px;
         margin: 0 1rem;
@@ -137,17 +137,18 @@ nav ul li a {
         margin: 2rem 1.2rem;
     }
 
-    .Card h1{
+    .Card h1 {
         margin: 1rem 0;
     }
-    .Card p{
+
+    .Card p {
         margin: 1rem 0;
     }
 
     .Card:nth-child(2) {
         margin: 2rem 1.2rem;
     }
-    
+
     .Card:nth-child(3) {
         margin: 2rem 1.2rem;
     }
